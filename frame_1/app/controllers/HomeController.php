@@ -5,8 +5,9 @@
  * Date: 2016/10/26
  * Time: 17:27
  */
-class HomeController{
+class HomeController extends BaseController {
     public function __construct(){
+        parent::__construct();
     }
 
     public function home(){
